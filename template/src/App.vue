@@ -14,7 +14,7 @@ export default {
 };
 </script>
 
-<style {{#sass}} lang="scss" {{/sass}}>
+<style {{#sass}}lang="scss"{{/sass}}>
 body {
 	font-family: sans-serif;
 }
