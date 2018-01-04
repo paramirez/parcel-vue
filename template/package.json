@@ -1,0 +1,26 @@
+{
+	"name": "{{ name }}",
+	"version": "1.0.0",
+	"description": "{{ description }}",
+	"main": "index.js",
+	"scripts": {
+		"dev": "parcel index.html",
+		"build": "parcel build index.html --public-url /",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "{{ author }}",
+	"license": "{{ license }}",
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    {{#sass}}
+    "node-sass": "^4.7.2",
+    {{/sass}}
+		"parcel-bundler": "^1.4.1",
+		"parcel-plugin-vue": "^1.5.0"
+	},
+	"dependencies": {
+		"vue": "^2.5.13"
+	}
+}
