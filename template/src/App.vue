@@ -8,7 +8,7 @@
 export default {
 	data() {
 		return {
-			text: 'Parcel Vue App'
+			text: 'Parcel + Vue'
 		};
 	}
 };
